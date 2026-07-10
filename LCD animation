@@ -1,0 +1,25 @@
+#include <LiquidCrystal.h>
+
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
+void setup() {
+  lcd.begin(16, 2);
+}
+
+void loop() {
+  // Left to Right
+  for (int i = 0; i <= 4; i++) {
+    lcd.clear();
+    lcd.setCursor(i, 0);
+    lcd.print("HELLO WORLD!");
+    delay(300);
+  }
+
+  // Right to Left
+  for (int i = 4; i >= 0; i--) {
+    lcd.clear();
+    lcd.setCursor(i, 0);
+    lcd.print("HELLO WORLD!");
+    delay(300);
+  }
+}
