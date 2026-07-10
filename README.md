@@ -6,7 +6,6 @@ This repository contains Arduino programming exercises and automation projects c
 
 The repository is intended to document my learning journey in embedded systems, Arduino programming, and industrial automation concepts through practical coding exercises.
 
----
 
 ## 🎯 Course Information
 
@@ -16,7 +15,7 @@ The repository is intended to document my learning journey in embedded systems, 
 * **Programming Language:** Arduino (C/C++)
 * **Development Environment:** Arduino IDE
 
----
+
 
 ## 📂 Repository Contents
 
@@ -39,7 +38,6 @@ This repository includes:
 
 More examples will be added as I progress through the course.
 
----
 
 ## 🛠️ Technologies Used
 
@@ -49,7 +47,6 @@ More examples will be added as I progress through the course.
 * Electronics Components
 * Industrial Automation Concepts
 
----
 
 ## 🚀 Getting Started
 
@@ -60,7 +57,7 @@ More examples will be added as I progress through the course.
 5. Upload the sketch to the board.
 6. Test the circuit according to the program.
 
----
+
 
 ## 📁 Repository Structure
 
@@ -89,7 +86,7 @@ Industrial-Automation-Coding/
 * Build automation-based applications.
 * Develop problem-solving skills using embedded systems.
 
----
+
 
 ## 📈 Progress
 
@@ -100,21 +97,17 @@ Industrial-Automation-Coding/
 * ⏳ Relay Automation
 * ⏳ Industrial Automation Projects
 
----
+
 
 ## 🤝 Acknowledgements
 
 Special thanks to **LIFT INDIA** for providing practical industrial automation training and hands-on coding experience.
 
----
+
 
 ## 👨‍💻 Author
 
 **Kanishka K**
 
-* GitHub: https://github.com/Kanishka-K07
 * LinkedIn: www.linkedin.com/in/kanishka-k-81b13131b
 
----
-
-### ⭐ If you find this repository useful, consider giving it a Star!
