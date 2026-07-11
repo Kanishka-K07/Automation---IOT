@@ -1,0 +1,21 @@
+int in = A0;
+int out = 2;
+int sensorvalue = 20;
+int threshold = 500;
+
+void setup(){
+  pinMode(in,INPUT);
+  pinMode(out,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop(){
+    sensorvalue = analogRead(in);
+  if(sensorvalue>threshold){
+    digitalWrite(out,HIGH);
+    Serial.print("DRY");
+  } else {
+       digitalWrite(out,LOW);
+       Serial.print("WET");
+  }
+} 
