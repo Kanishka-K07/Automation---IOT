@@ -1,0 +1,18 @@
+int in = A0;
+int out = 2;
+int gasvalue = 0;
+int threshold = 400;
+
+void setup(){
+  pinMode(in,INPUT);
+  pinMode(out,OUTPUT);
+}
+
+void loop(){
+      gasvalue = AnalogRead(in);
+  if(gasvalue>threshold){
+    digitalWrite(out,HIGH);
+  } else {
+       digitalWrite(out,LOW);
+  }
+} 
