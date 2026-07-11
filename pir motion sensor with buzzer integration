@@ -1,0 +1,17 @@
+ int in = 2;
+int out = 3;
+
+void setup() {
+  pinMode(in, INPUT);
+  pinMode(out, OUTPUT);
+}
+
+void loop() {
+  int sensorvalue = digitalRead(in);
+  if(sensorvalue == HIGH){
+    tone(out,2000);
+  } else   {
+    noTone(out);
+  }
+
+}
