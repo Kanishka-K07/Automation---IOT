@@ -1,0 +1,26 @@
+int sensorvalue = 20;
+int threshold = 500;
+
+void setup(){
+  
+  Serial.begin(9600);
+  Serial.begin();
+}
+
+void loop(){
+  float humidity = dht.ReadHumidity();
+  float temperature = dht.readTemparature();
+  
+  if(isnan(humidity) || isnan(temparature)){
+    Serial.print("cannot read");
+    delay(2000);
+    return;
+  }
+
+  Serial.print("Humidity:");
+  Serial.print(humidity);
+  Serial.print("Tempatature");
+  Serial.print(temparature);
+  Serial.print("c.\t");
+  delay(2000);
+} 
