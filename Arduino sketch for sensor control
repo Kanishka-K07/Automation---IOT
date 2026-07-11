@@ -1,0 +1,33 @@
+int in = 7;
+int a = 2;
+int b = 3;
+int c = 4;
+int d = 5;
+int out = 6;
+
+void setup(){
+  pinMode(in,INPUT);
+  pinMode(a,OUTPUT);
+  pinMode(b,OUTPUT);
+  pinMode(c,OUTPUT);
+  pinMode(d,OUTPUT);
+  pinMode(out,OUTPUT);
+}
+
+void loop(){
+  int sensorvalue = digitalRead(in);
+  if(sensorvalue == HIGH){
+    digitalWrite(out,HIGH);
+    delay(2000);
+    digitalWrite(a,HIGH);
+    digitalWrite(c,HIGH);
+    digitalWrite(b,LOW);
+    digitalWrite(d,LOW);
+  } else {
+       digitalWrite(out,LOW);
+       digitalWrite(a,LOW);
+       digitalWrite(c,LOW);
+       digitalWrite(b,HIGH);
+       digitalWrite(d,HIGH);
+  }
+}
